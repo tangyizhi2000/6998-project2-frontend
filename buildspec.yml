@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       - echo Build started on 'date'
-      - npm run build
+      - yarn build
   post_build:
     commands:
       - aws s3 cp --recursive --acl public-read ./build s3://b2-frontend-react/
