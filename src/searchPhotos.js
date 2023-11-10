@@ -80,8 +80,8 @@ export default function SearchPhotos() {
                 type="search"
             />
             <SpaceBetween size="m" direction="horizontal">
-                <Button onClick={startRecording}>Press to Start Recording</Button>
-                <Button onClick={stopRecording}>Press to Stop Recording</Button>
+                <Button onClick={startRecording}>Click to Start Recording</Button>
+                <Button onClick={stopRecording}>Click to Stop Recording</Button>
             </SpaceBetween>
             <Button variant="primary" onClick={sendRequest}>Submit Search Query</Button>
             <TextContent>
