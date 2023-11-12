@@ -40,6 +40,7 @@ export default function SearchPhotos() {
     }
 
     function sendRequest() {
+        setItems([]);
         // send requests to backend
         var url = "https://aqc18ezxgh.execute-api.us-east-1.amazonaws.com/GET_OK/search?q=";
         url += query;
